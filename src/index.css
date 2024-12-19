@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: lime;
+  padding: 20px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+.banner {
+  padding: 10px;
+}
+input {
+  padding: 20px 0;
+  min-width: 300px;
+  width: 500px;
+
+  border-radius: 10px;
+  border: 1px solid black;
+  margin: 10px;
+  font-size: 1.2em;
+}
+label {
+  font-size: 1.5em;
+}
+form button {
+  margin: 20px;
+  font-size: 2rem;
+
+  border-radius: 10px;
+  border: none;
+  width: 150px;
+  padding: 10px 0;
+  background: black;
+  color: lime;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.todolist {
+  background-color: white;
+  color: lime;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.todoItems {
+  display: flex;
+  flex-direction: column;
+
+  background-color: black;
+  width: 900px;
+  min-width: 200px;
+  border: 10px solid lime;
+
+  font-size: 2em;
+}
+
+.delete,
+.edit {
+  width: 100px;
+  padding: 10px;
+  font-size: 1.1rem;
+  background-color: rgba(255, 38, 0, 0.966);
+  margin: 10px;
+}
+.edit {
+  background-color: aqua;
+}
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
